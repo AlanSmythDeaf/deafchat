@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12 video-responsive">
+      <!-- Title goes between these h2 tags -->
+      <h2>{{ about.title }}</h2>
+      <!-- Content goes directly underneath this -->
+      {{ about.content | safe }}
+      <p class="text-end"><em>Updated on: {{ about.updated_on }}</em></p>
+    </div>
+  </div>
+</div>
+{% endblock content %}
