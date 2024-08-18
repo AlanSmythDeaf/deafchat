@@ -3,12 +3,23 @@
 {% load static %}
 <div class="container mt-5">
   <div class="row">
-    <div>
+    <div class="video-container">
       <!-- Title goes between these h2 tags -->
       <h2>{{ about.title }}</h2>
+      <iframe
+        src="https://res.cloudinary.com/dwu0eqp8u/video/upload/v1723910108/Introduction_about_DeafChat_xeulhv.mp4"
+        width="640"
+        height="360"
+        allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+        undefined
+        allowfullscreen
+        frameborder="0">
+      </iframe>
       <!-- Content goes directly underneath this -->
-      {{ about.content | safe }}
-      <p class="text-end"><em>Updated on: {{ about.updated_on }}</em></p>
+    </div>
+    <div>
+    {{ about.content | safe }}
+    <p class="text-end"><em>Updated on: {{ about.updated_on }}</em></p>
     </div>
   </div>
 </div>
