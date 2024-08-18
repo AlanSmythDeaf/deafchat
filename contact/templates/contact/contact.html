@@ -4,10 +4,9 @@
 <!--- Contact form page --->
 
 {% block content %} 
-<h1>Contact Us</h1>
-<form method="POST" action="{% url 'contact' %}">
+<form method="POST" action="{% url 'contact' %}" class="container mt-5">
     {% csrf_token %}
     {{ form|crispy }}
-    <button type="submit">Submit</button>
+    <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 {% endblock %}
