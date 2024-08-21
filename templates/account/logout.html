@@ -1,3 +1,5 @@
+<!-- To be deleted
+
 {% extends "base.html" %}
 
 {% load i18n %}
@@ -10,20 +12,40 @@
         <div class="col-md-8 mt-3 offset-md-2">
             <h3>{% trans "Sign Out" %}</h3>
 
-            <p>{% trans 'Are you sure you want to sign out?' %}</p>
+            <p>{% trans 'Are you sure you want to sign out' %} {{ user.get_username }}?</p>
         </div>
     </div>
     <div class="row">
-        <div class="col-md-8 mt-3 offset-md-2">
-
-            <form method="post" action="{% url 'account_logout' %}">
-                {% csrf_token %}
-                {% if redirect_field_value %}
-                <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
-                {% endif %}
-                <button class="btn btn-signup right" type="submit">{% trans 'Sign Out' %}</button>
-            </form>
+        #Button trigger modal
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#logoutModal">
+            {% trans 'Sign Out' %}
+        </button>
+    </div>
+</div>
+#Modal
+<div class="modal fade" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="logoutModalLabel">{% trans "Sign Out" %}</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                {% trans 'Are you sure you want to sign out, ' %}{{ user.get_username }}?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">{% trans 'Cancel' %}</button>
+                <form method="post" action="{% url 'account_logout' %}">
+                    {% csrf_token %}
+                    {% if redirect_field_value %}
+                    <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+                    {% endif %}
+                    <button class="btn btn-primary" type="submit">{% trans 'Sign Out' %}</button>
+                </form>
+            </div>
         </div>
     </div>
+</div>
+</div>
 </div>
 {% endblock %}
