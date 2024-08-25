@@ -87,7 +87,7 @@
           <form id="commentForm" method="post" style="margin-top: 1.3em;">
             {{ comment_form | crispy }}
             {% csrf_token %}
-            <button id="submitButton" type="submit" class="btn btn-primary btn-lg">Submit</button>
+            <button id="submitButton" type="submit" class="btn btn-submit btn-lg">Submit</button>
           </form>
           {% else %} 
           <h2>Would you like to make a comment, please log in</h2>
@@ -116,7 +116,7 @@
         <button type="button" class="btn btn-secondary"
           data-bs-dismiss="modal">Close</button>
         <a id="deleteConfirm" href="#" class="btn
-          btn-primary">Delete</a>
+          btn-submit">Delete</a>
       </div>
     </div>
   </div>
@@ -131,7 +131,7 @@
     var scrolled = (winScroll / height) * 100;
     document.getElementById("myBar").style.width = scrolled + "%";
   }
-  </script>
+</script>
 {% endblock content %}
 
 {% block extras %}

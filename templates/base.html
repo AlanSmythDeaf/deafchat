@@ -106,7 +106,7 @@
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
                     <form action="{% url 'account_logout' %}" method="post" style="display:inline;">
                         {% csrf_token %}
-                        <button type="submit" class="btn btn-primary">Logout</button>
+                        <button type="submit" class="btn btn-submit">Logout</button>
                     </form>
                 </div>
             </div>
