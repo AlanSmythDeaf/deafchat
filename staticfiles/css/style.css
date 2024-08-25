@@ -9,6 +9,10 @@ body {
     color: #4A4A4F;
 }
 
+.bg-custom {
+    background-color: #005677 !important; 
+}
+
 .red-o {
     color: #E84610;
 }

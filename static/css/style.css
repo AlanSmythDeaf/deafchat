@@ -9,6 +9,10 @@ body {
     color: #4A4A4F;
 }
 
+.bg-custom {
+    background-color: #005677 !important; 
+}
+
 .red-o {
     color: #E84610;
 }
@@ -26,7 +30,7 @@ body {
 }
 
 .main-bg {
-    background-color: #F9FAFC;
+    background-color: #FFFFFF;
 }
 
 .card {
@@ -48,7 +52,7 @@ body {
     bottom: 5%;
     min-width: 30%;
     left: -2px;
-    background-color: #0d6efd;
+    background-color: #005677;
 }
 
 .scale {
@@ -136,14 +140,20 @@ body {
 }
 
 .btn-signup,
+.btn-login,
+.btn-submit {
+    background-color: #005677;
+    color: #ffffff;
+}
+
 .btn-edit {
-    background-color: #188181;
+    background-color: #005677;
     color: #fff;
 }
 
 .btn-signup:hover,
 .btn-signup:active {
-    background-color: #fff;
+    background-color: #005677;
     color: #23BBBB;
 }
 
@@ -188,6 +198,11 @@ body {
     background-color: #0d6efd;
     color: white;
 }
+
+.icon-color {
+    color: #005667;
+}
+
 
 /* for scroll indicator */
 @media (max-width: 426px) {
