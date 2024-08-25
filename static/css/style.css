@@ -206,6 +206,20 @@ body {
     color: #005667;
 }
 
+.masthead {
+    height: auto; /* Default height */
+}
+
+@media (max-width: 767px) {
+    .masthead {
+        height: 100px; /* Adjust this height as needed */
+    }
+
+    .masthead-text h1 {
+        font-size: 1.5rem; /* Adjust the font size for smaller screens */
+        text-align: center; 
+    }
+}
 
 /* for scroll indicator */
 @media (max-width: 426px) {
