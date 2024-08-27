@@ -11,8 +11,9 @@ class ContactForm(forms.ModelForm):
     phonenumber = forms.CharField(
             label='Phone Number',
             max_length=20,
+            required=False,
             widget=forms.TextInput(attrs={'placeholder':
-                                   'Enter your phone number'})
+                                   'phone number'})
         )
     email = forms.EmailField(
             label='Email',
