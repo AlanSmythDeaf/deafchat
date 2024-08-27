@@ -132,6 +132,12 @@ body {
     color: #981f1f;
 }
 
+.page-link {
+    background-color: #005677;
+    color: #ffffff;
+}
+
+
 .post-title {
     margin-top: 10%;
     margin-left: 5%;
