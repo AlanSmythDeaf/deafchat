@@ -161,13 +161,13 @@ body {
 }
 
 .link {
-    color: #23BBBB;
-    text-decoration: none;
+    color: #005677;
+    text-decoration: underline;
 }
 
 .link:hover,
 .link:active {
-    color: #445261;
+    color: #981f1f;
     text-decoration: underline;
 }
 
