@@ -2,10 +2,10 @@ from django.shortcuts import render, redirect
 from django.contrib import messages
 from .forms import ContactForm
 
-# Create your views here.
+# Create views here.
+
 
 def contact(request):
-    
     form = ContactForm()
     if request.method == 'POST':
         form = ContactForm(request.POST)
