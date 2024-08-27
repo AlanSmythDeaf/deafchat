@@ -206,10 +206,7 @@ body {
 
 .icon-color {
     color: #005667;
-}
-
-.masthead {
-    height: auto; /* Default height */
+    font-size: 24px;
 }
 
 @media (max-width: 767px) {
