@@ -43,11 +43,8 @@ body {
 }
 
 .image-flash {
-    position: absolute;
-    bottom: 5%;
-    min-width: 30%;
-    left: -2px;
-    background-color: #005677 !important;
+    position: relative;
+    background-color: #005677;
 }
 
 .scale {
@@ -85,7 +82,7 @@ body {
     content: "";
     position: absolute;
     top: 0;
-    right: 90%;
+    right: 80%;
     height: 100%;
     width: 150%;
     background: #005677;
@@ -136,7 +133,6 @@ body {
     background-color: #005677;
     color: #ffffff;
 }
-
 
 .post-title {
     margin-top: 10%;
@@ -228,13 +224,13 @@ body {
 }
 
 /* for scroll indicator */
-@media (max-width: 426px) {
+@media (max-width: 769px) {
   .header {
     display: block;
   }
 }
 
-@media (min-width: 426px) {
+@media (min-width: 769px) {
   .header {
     display: none;
   }
