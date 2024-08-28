@@ -42,7 +42,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-custom">
         
         <div class="container-fluid">
-            <a class="navbar-brand" href="{% url 'home' %}"><img src="/static/images/brand-logo.png" class="d-inline-block align-top" alt="logo"></a>
+            <a class="navbar-brand" href="{% url 'home' %}"><img src="/static/images/brand-logo.webp" class="d-inline-block align-top" alt="logo"></a>
             <!-- Display Log in link only if user is not authenticated -->
             {% if not user.is_authenticated %}
             <a class="nav-link {% if request.path == login_url %}active{% endif %} text-white" aria-current="page" href="{% url 'account_login' %}">Log in</a>
@@ -118,7 +118,7 @@
     <!-- Footer -->
     <footer class="footer mt-auto py-3">
         <div class="text-center">
-            <img src="/static/images/bottom-logo.jpg" alt="Brand Logo">
+            <img src="/static/images/bottom-logo.webp" alt="Brand Logo">
         </div>
         <p class="m-0 text-center text-dark">Made by <strong><i>Alan Smyth</i></strong></p>
         <p class="m-0 text-center text-dark">Follow us: 
