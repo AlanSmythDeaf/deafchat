@@ -11,11 +11,12 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-| about | about.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| blog | index.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| blog | post_detail.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| contact | contact.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| templates | 404.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| Home | index.html | ![screenshot](documentation/html_validation/index_htmlvalid.png) | |
+| About | about.html | ![screenshot](documentation/html_validation/about_htmlvalid.png) | |
+| Contact | contact.html | ![screenshot](documentation/html_validation/contact_htmlvalid.png) | |
+| Log in | login.html | ![screenshot](documentation/html_validation/login_htmlvalid.png) | |
+| Register | signup.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| Post | post_detail.html | ![screenshot](documentation/html_validation/post_htmlvalid.png) |documentation/html_validation/signup_htmlvalid.png|
 
 ### CSS
 
@@ -161,11 +162,7 @@ Forms:
 - Users cannot submit an empty form
 - Users must enter valid email addresses
 
-PP3 (Python-only):
-- Users must enter a valid letter/word/string when prompted
-- Users must choose from a specific list only
-
-MS3 (Flask) | MS4/PP4/PP5 (Django):
+PP4 (Django):
 - Users cannot brute-force a URL to navigate to a restricted page
 - Users cannot perform CRUD functionality while logged-out
 - User-A should not be able to manipulate data belonging to User-B, or vice versa
@@ -235,7 +232,7 @@ When in doubt, use the above method instead, and delete the table below.
 | Home | | | | |
 | | Click on Logo | Redirection to Home page | Pass | |
 | | Click on Home link in navbar | Redirection to Home page | Pass | |
-| Gallery | | | | |
+| About | | | | |
 | | Click on Gallery link in navbar | Redirection to Gallery page | Pass | |
 | | Load gallery images | All images load as expected | Pass | |
 | Contact | | | | |
