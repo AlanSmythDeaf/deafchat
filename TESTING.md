@@ -11,12 +11,12 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | index.html | ![screenshot](documentation/html_validation/index_htmlvalid.png) | |
-| About | about.html | ![screenshot](documentation/html_validation/about_htmlvalid.png) | |
-| Contact | contact.html | ![screenshot](documentation/html_validation/contact_htmlvalid.png) | |
-| Log in | login.html | ![screenshot](documentation/html_validation/login_htmlvalid.png) | |
-| Register | signup.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| Post | post_detail.html | ![screenshot](documentation/html_validation/post_htmlvalid.png) |documentation/html_validation/signup_htmlvalid.png|
+| About | about.html | ![screenshot](documentation/html_validation/about_htmlvalid.png) | No error |
+| Contact | contact.html | ![screenshot](documentation/html_validation/contact_htmlvalid.png) | No error |
+| Home | index.html | ![screenshot](documentation/html_validation/index_htmlvalid.png) | No error |
+| Log In | contact.html | ![screenshot](documentation/html_validation/login_htmlvalid.png) | No error |
+| Sign Up | contact.html | ![screenshot](documentation/html_validation/signup_htmlvalid.png) | error due to template, couldnt fix it |
+| Post | contact.html | ![screenshot](documentation/html_validation/post_htmlvalid.png) | error due to template, couldnt fix it |
 
 ### CSS
 
@@ -38,26 +38,31 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 
 I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com) to validate all of my Python files.
 
+I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com) to validate all of my Python files.
+
 | Directory | File | CI URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
-| about | admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/about/admin.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| about | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/about/models.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| about | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/about/urls.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| about | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/about/views.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| blog | admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/blog/admin.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| blog | forms.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/blog/forms.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| blog | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/blog/models.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| blog | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/blog/urls.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| blog | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/blog/views.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| chat | settings.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/chat/settings.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| chat | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/chat/urls.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| chat | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/chat/views.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| contact | admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/contact/admin.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| contact | forms.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/contact/forms.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| contact | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/contact/models.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| contact | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/contact/urls.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| contact | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/contact/views.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | manage.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/manage.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| about | admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/about/admin.py) | ![screenshot](documentation/python_validation/about_admin_py.png) | All clear, no errors found |
+| about | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/about/models.py) | ![screenshot](documentation/python_validation/about_models_py.png) | All clear, no errors found |
+| about | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/about/urls.py) | ![screenshot](documentation/python_validation/about_urls_py.png) | All clear, no errors found |
+| about | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/about/views.py) | ![screenshot](documentation/python_validation/about_views_py.png) | All clear, no errors found |
+| blog | admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/blog/admin.py) | ![screenshot](documentation/python_validation/blog_admin_py.png) | All clear, no errors found |
+| blog | forms.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/blog/forms.py) | ![screenshot](documentation/python_validation/blog_forms_py.png) | All clear, no errors found |
+| blog | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/blog/models.py) | ![screenshot](documentation/python_validation/blog_models_py.png) | All clear, no errors found |
+| blog | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/blog/urls.py) | ![screenshot](documentation/python_validation/blog_urls_py.png) | All clear, no errors found |
+| blog | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/blog/views.py) | ![screenshot](documentation/python_validation/blog_views_py.png) | All clear, no errors found |
+| chat | settings.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/chat/settings.py) | ![screenshot](documentation/python_validation/chat_setting_py.png) | line too long,line under-indented for visual indent, closing bracket does not match visual indentation |
+| chat | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/chat/urls.py) | ![screenshot](documentation/python_validation/chat_url_py.png) | All clear, no errors found |
+| chat | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/chat/views.py) | ![screenshot](documentation/python_validation/chat_views_py.png) | All clear, no errors found |
+| contact | admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/contact/admin.py) | ![screenshot](documentation/python_validation/contact_admin_py.png) | All clear, no errors found |
+| contact | forms.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/contact/forms.py) | ![screenshot](documentation/python_validation/contact_form_py.png) | All clear, no errors found |
+| contact | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/contact/models.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | All clear, no errors found |
+| contact | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/contact/urls.py) | ![screenshot](documentation/python_validation/contact_models_py.png) | All clear, no errors found |
+| contact | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/contact/views.py) | ![screenshot](documentation/python_validation/contact_views_py.png) | All clear, no errors found |
+| DEAFCHAT | manage.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/manage.py) | ![screenshot](documentation/python_validation/manage_py.png) | All clear, no errors found |
+
+
+
 
 ## Browser Compatibility
 
@@ -262,12 +267,6 @@ When in doubt, use the above method instead, and delete the table below.
 | | Brute forcing the URL to get to another user's profile | User should be given an error | Pass | Redirects user back to own profile |
 | repeat for all remaining pages | x | x | x | x |
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-Repeat for all other tests, as applicable to your own site.
-The aforementioned tests are just an example of a few different project scenarios.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 ## User Story Testing
 
