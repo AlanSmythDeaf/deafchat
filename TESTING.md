@@ -88,11 +88,13 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 - Tablet
 - Desktop
 
-| Device | Home | About | Contact | etc | Notes |
-| --- | --- | --- | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsiveness/responsive-mobile-home.png) | ![screenshot](documentation/responsiveness/responsive-mobile-about.png) | ![screenshot](documentation/responsiveness/responsive-mobile-contact.png) | ![screenshot](documentation/responsiveness/responsive-mobile-etc.png) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsiveness/responsive-tablet-home.png) | ![screenshot](documentation/responsiveness/responsive-tablet-about.png) | ![screenshot](documentation/responsiveness/responsive-tablet-contact.png) | ![screenshot](documentation/responsiveness/responsive-tablet-etc.png) | Works as expected |
-| Desktop | ![screenshot](documentation/responsiveness/responsive-desktop-home.png) | ![screenshot](documentation/responsiveness/responsive-desktop-about.png) | ![screenshot](documentation/responsiveness/responsive-desktop-contact.png) | ![screenshot](documentation/responsiveness/responsive-desktop-etc.png) | Works as expected |
+| Device | Home | About | Contact | log in | Register | Post | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Mobile (DevTools) | ![screenshot](documentation/responsive/mobile_home.png) | ![screenshot](documentation/responsive/mobile_about.png) | ![screenshot](documentation/responsive/mobile_contact.png) | ![screenshot](documentation/responsive/mobile_login.png) | ![screenshot](documentation/responsive/mobile_register.png) | ![screenshot](documentation/responsive/mobile_post.png) | works as expected | 
+| Tablet (DevTools) | ![screenshot](documentation/responsive/tablet_home.png) | ![screenshot](documentation/responsive/tablet_about.png) | ![screenshot](documentation/responsive/tablet_contact.png) | ![screenshot](documentation/responsive/tablet_login.png) | ![screenshot](documentation/responsive/tablet_register.png) | ![screenshot](documentation/responsive/tablet_post.png) | works as expected | 
+| Desktop | ![screenshot](documentation/responsive/desktop_home.png) | ![screenshot](documentation/responsive/desktop_about.png) | ![screenshot](documentation/responsive/desktop_contact.png) | ![screenshot](documentation/responsive/desktop_login.png) | ![screenshot](documentation/responsive/desktop_register.png) | ![screenshot](documentation/responsive/desktop_post.png) | works as expected | 
+
+
 
 
 ## Lighthouse Audit
@@ -237,12 +239,15 @@ from the respective feature.
 
 | User Story | Screenshot |
 | --- | --- |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature01.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature02.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature03.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature04.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature05.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature06.png) |
+| As a new site user, I would like to be able to navigate the page, so that I read the blog. | ![screenshot](documentation/browser/chrome_post.png) |
+| As a new site user, I would like to be able to sign up, so that I can comment on a post. | ![screenshot](documentation/browser/chrome_register.png) |
+| As a new site user, I would like to be able to log out easily so that am confident that I have logged out. | ![screenshot](documentation/features/feature03.png) |
+| As a new site user, I would like to be able to navigate the contact easily, so that I can send message.| ![screenshot](documentation/browser/chrome_contact.png) |
+
+| User Story | Screenshot |
+| --- | --- |
+| As a site administrator, I should be able to log in, so that I can access the admin page | ![screenshot](documentation/features/feature05.png) |
+| As a site administrator, I should be able to delete or approve comment, so that I can control the page | ![screenshot](documentation/features/feature06.png) |
 | As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/features/feature07.png) |
 | As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/features/feature08.png) |
 | As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/features/feature09.png) |
