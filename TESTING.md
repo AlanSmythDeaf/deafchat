@@ -24,7 +24,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-| static | style.css | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| static | style.css | ![screenshot](documentation/others/css_style.png) | |
 
 ### JavaScript
 
@@ -32,11 +32,9 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-| static | comments.js | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| static | comments.js | ![screenshot](documentation/others/jshint.png) | |
 
 ### Python
-
-I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com) to validate all of my Python files.
 
 I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com) to validate all of my Python files.
 
@@ -151,7 +149,7 @@ Defensive programming was manually tested with the below user acceptance testing
 | --- | --- |
 | As a new site user, I would like to be able to navigate the page, so that I read the blog. | ![screenshot](documentation/browser/chrome_post.png) |
 | As a new site user, I would like to be able to sign up, so that I can comment on a post. | ![screenshot](documentation/browser/chrome_register.png) |
-| As a new site user, I would like to be able to log out easily so that am confident that I have logged out. | ![screenshot](documentation/features/feature03.png) |
+| As a new site user, I would like to be able to log out easily so that am confident that I have logged out. | ![screenshot](documentation/defensive/logout_signout.png) |
 | As a new site user, I would like to be able to navigate the contact easily, so that I can send message.| ![screenshot](documentation/browser/chrome_contact.png) |
 
 | User Story | Screenshot |
@@ -162,79 +160,7 @@ Defensive programming was manually tested with the below user acceptance testing
 
 ## Bugs
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-This section is primarily used for JavaScript and Python applications,
-but feel free to use this section to document any HTML/CSS bugs you might run into.
-
-It's very important to document any bugs you've discovered while developing the project.
-Make sure to include any necessary steps you've implemented to fix the bug(s) as well.
-
-**PRO TIP**: screenshots of bugs are extremely helpful, and go a long way!
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-- JS Uncaught ReferenceError: `foobar` is undefined/not defined
-
-    ![screenshot](documentation/bugs/bug01.png)
-
-    - To fix this, I _____________________.
-
-- JS `'let'` or `'const'` or `'template literal syntax'` or `'arrow function syntax (=>)'` is available in ES6 (use `'esversion: 11'`) or Mozilla JS extensions (use moz).
-
-    ![screenshot](documentation/bugs/bug02.png)
-
-    - To fix this, I _____________________.
-
-- Python `'ModuleNotFoundError'` when trying to import module from imported package
-
-    ![screenshot](documentation/bugs/bug03.png)
-
-    - To fix this, I _____________________.
-
-- Django `TemplateDoesNotExist` at /appname/path appname/template_name.html
-
-    ![screenshot](documentation/bugs/bug04.png)
-
-    - To fix this, I _____________________.
-
-- Python `E501 line too long` (93 > 79 characters)
-
-    ![screenshot](documentation/bugs/bug04.png)
-
-    - To fix this, I _____________________.
-
 ### GitHub **Issues**
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-An improved way to manage bugs is to use the built-in **Issues** tracker on your GitHub repository.
-To access your Issues, click on the "Issues" tab at the top of your repository.
-Alternatively, use this link: https://github.com/AlanSmythDeaf/deafchat/issues
-
-If using the Issues tracker for your bug management, you can simplify the documentation process.
-Issues allow you to directly paste screenshots into the issue without having to first save the screenshot locally,
-then uploading into your project.
-
-You can add labels to your issues (`bug`), assign yourself as the owner, and add comments/updates as you progress with fixing the issue(s).
-
-Once you've sorted the issue, you should then "Close" it.
-
-When showcasing your bug tracking for assessment, you can use the following format:
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-**Fixed Bugs**
-
-[![GitHub issue custom search](https://img.shields.io/github/issues-search?query=repo%3AAlanSmythDeaf%2Fdeafchat%20label%3Abug&label=bugs)](https://github.com/AlanSmythDeaf/deafchat/issues?q=is%3Aissue+is%3Aclosed+label%3Abug)
-
-All previously closed/fixed bugs can be tracked [here](https://github.com/AlanSmythDeaf/deafchat/issues?q=is%3Aissue+is%3Aclosed).
-
-| Bug | Status |
-| --- | --- |
-| [JS Uncaught ReferenceError: `foobar` is undefined/not defined](https://github.com/AlanSmythDeaf/deafchat/issues/1) | Closed |
-| [Python `'ModuleNotFoundError'` when trying to import module from imported package](https://github.com/AlanSmythDeaf/deafchat/issues/2) | Closed |
-| [Django `TemplateDoesNotExist` at /appname/path appname/template_name.html](https://github.com/AlanSmythDeaf/deafchat/issues/3) | Closed |
 
 **Open Issues**
 
@@ -243,51 +169,26 @@ All previously closed/fixed bugs can be tracked [here](https://github.com/AlanSm
 
 Any remaining open issues can be tracked [here](https://github.com/AlanSmythDeaf/deafchat/issues).
 
-| Bug | Status |
-| --- | --- |
-| [JS `'let'` or `'const'` or `'template literal syntax'` or `'arrow function syntax (=>)'` is available in ES6 (use `'esversion: 11'`) or Mozilla JS extensions (use moz).](https://github.com/AlanSmythDeaf/deafchat/issues/4) | Open |
-| [Python `E501 line too long` (93 > 79 characters)](https://github.com/AlanSmythDeaf/deafchat/issues/5) | Open |
-
 ## Unfixed Bugs
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
+- Html Validation
 
-You will need to mention unfixed bugs and why they were not fixed.
-This section should include shortcomings of the frameworks or technologies used.
-Although time can be a big variable to consider, paucity of time and difficulty understanding
-implementation is not a valid reason to leave bugs unfixed.
+    ![screenshot](documentation/html_validation/signup_htmlvalid.png)
 
-If you've identified any unfixed bugs, no matter how small, be sure to list them here.
-It's better to be honest and list them, because if it's not documented and an assessor finds the issue,
-they need to know whether or not you're aware of them as well, and why you've not corrected/fixed them.
+    - Couldnt find it to fix it but came clear it was signup template so I couldnt change it
 
-Some examples:
+- Python
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+    ![screenshot](documentation/python_validation/chat_setting_py.png)
 
-- On devices smaller than 375px, the page starts to have `overflow-x` scrolling.
+    - Most of the line are too long, with others I have no issue solving it but I felt that i should leave it as it's because it's a setting.
 
-    ![screenshot](documentation/bugs/unfixed-bug01.png)
+- JS
 
-    - Attempted fix: I tried to add additional media queries to handle this, but things started becoming too small to read.
+    ![screenshot](documentation/others/jshint.png)
 
-- For PP3, when using a helper `clear()` function, any text above the height of the terminal does not clear, and remains when you scroll up.
+    - I couldnt figure it out as it was working
 
-    ![screenshot](documentation/bugs/unfixed-bug02.png)
-
-    - Attempted fix: I tried to adjust the terminal size, but it only resizes the actual terminal, not the allowable area for text.
-
-- When validating HTML with a semantic `section` element, the validator warns about lacking a header `h2-h6`. This is acceptable.
-
-    ![screenshot](documentation/bugs/unfixed-bug03.png)
-
-    - Attempted fix: this is a known warning and acceptable, and my section doesn't require a header since it's dynamically added via JS.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-If you legitimately cannot find any unfixed bugs or warnings, then use the following sentence:
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 > [!NOTE]  
 > There are no remaining bugs that I am aware of.

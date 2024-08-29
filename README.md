@@ -29,7 +29,10 @@ My website is all about a blog for Deaf people so I have chosen blue for the mai
 I used [coolors.co](https://coolors.co/055677-ffffff-981f1f) to generate my colour palette.
 
 ![screenshot](documentation/colour/color.png)
-
+| What | Screenshot | Notes |
+| --- | --- | --- |
+| Main | ![screenshot](documentation/others/main_accesible_color.png) | Passed |
+| When Clickin Post link | ![screenshot](documentation/others/link_accessible_colour.png) |Passed|
 
 ### Typography
 
@@ -393,11 +396,19 @@ There was no difference between local and deployment noticed
 
 ### Content
 
-| Source | Location | Notes |
-| --- | --- | --- |
-| [Markdown Builder](https://tim.2bn.dev/markdown-builder) | R |  |
-| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) |  |  |
-| [YouTube](https://www.youtube.com/) |  |  |
+| Source | Notes |
+| --- | --- |
+| [Markdown Builder](https://tim.2bn.dev/markdown-builder) | tool to help with readme |
+| [W3Schools](https://www.w3schools.com/) | scroll indicator when reading post |
+| [Code Insititute](https://codeinstitute.net/ie/) | Using curriculum to learn build the DeafChat  |
+| [Code Insititute Slack](https://codeinstitute.net/ie/) | Helping out with issue that I had i.e. amiresponsive  |
+| [Canva](https://www.canva.com/) | Using to create a hero image and post image |
+| [StackOver Flow](https://stackoverflow.com/) | Java script Issue |
+| [DjangoProject](https://www.djangoproject.com/) | Trying to get better understanding |
+| [chatgpt](https://openai.com/chatgpt/) | when the terminal display issue, I ask to double check what it means |
+| [Accesible Web](https://accessibleweb.com/color-contrast-checker/) | Check to make sure it's ok |
+| [Git Commit](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/) |Learning how to write git commit |
+
 
 ### Media
 
