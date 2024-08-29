@@ -113,104 +113,39 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ## Defensive Programming
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-Defensive programming (defensive design) is extremely important!
-
-When building projects that accept user inputs or forms, you should always test the level of security for each.
-Examples of this could include (not limited to):
-
-Forms:
-- Users cannot submit an empty form
-- Users must enter valid email addresses
-
-PP4 (Django):
-- Users cannot brute-force a URL to navigate to a restricted page
-- Users cannot perform CRUD functionality while logged-out
-- User-A should not be able to manipulate data belonging to User-B, or vice versa
-- Non-Authenticated users should not be able to access pages that require authentication
-- Standard users should not be able to access pages intended for superusers
-
-You'll want to test all functionality on your application, whether it's a standard form,
-or uses CRUD functionality for data manipulation on a database.
-Make sure to include the `required` attribute on any form-fields that should be mandatory.
-Try to access various pages on your site as different user types (User-A, User-B, guest user, admin, superuser).
-
-You should include any manual tests performed, and the expected results/outcome.
-
-Testing should be replicable.
-Ideally, tests cases should focus on each individual section of every page on the website.
-Each test case should be specific, objective, and step-wise replicable.
-
-Instead of adding a general overview saying that everything works fine,
-consider documenting tests on each element of the page
-(ie. button clicks, input box validation, navigation links, etc.) by testing them in their happy flow,
-and also the bad/exception flow, mentioning the expected and observed results,
-and drawing a parallel between them where applicable.
-
-Consider using the following format for manual test cases:
-
-Expected Outcome / Test Performed / Result Received / Fixes Implemented
-
-- **Expected**: "Feature is expected to do X when the user does Y."
-- **Testing**: "Tested the feature by doing Y."
-- (either) **Result**: "The feature behaved as expected, and it did Y."
-- (or) **Result**: "The feature did not respond to A, B, or C."
-- **Fix**: "I did Z to the code because something was missing."
-
-Use the table below as a basic start, and expand on it using the logic above.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
 Defensive programming was manually tested with the below user acceptance testing:
 
 | Page | Expectation | Test | Result | Fix | Screenshot |
 | --- | --- | --- | --- | --- | --- |
-| Home | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/features/feature01.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/features/feature02.png) |
+| Log in | | | | | |
+| | The log in page is about user logging into their account, User should be able to log in by adding username and password. | Test the log in by logging in without username or password and clicking submit button | The feature behaved as expected and lanad the user to the index page | Test concluded and passed | - |
+| | ScreenShot | ![screenshot](documentation/defensive/login_username.png) | ![screenshot](documentation/defensive/login_password.png) | ![screenshot](documentation/defensive/login_accept.png) | - |
 
 | Page | Expectation | Test | Result | Fix | Screenshot |
 | --- | --- | --- | --- | --- | --- |
-| About | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/features/feature03.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/features/feature04.png) |
+| Register (Sign up) | | | | | |
+| | The sign up page is about user to register with the website to be able to log in | Test the sign up button by logging in without username or password to see if can bypass it without username or passwoed | The feature behaved as expected as cannot have same username and need to insert a password to be able register | Test concluded and passed | - |
+| | ScreenShot | ![screenshot](documentation/defensive/register_usernamealreadyexist.png) | ![screenshot](documentation/defensive/register_passwordagain.png) | ![screenshot](documentation/defensive/register_passed.png) | - |
+
+| Page | Expectation | Test | Result | Fix | Screenshot |
+| --- | --- | --- | --- | --- | --- |
+| Logged Out | | | | | |
+| | Log out is in the top of the navbar when the user is logged in so able to logged when the user want to | Tested the feature by logging out | The feature behaved as expected as display a warning and letting user know logged out | Test concluded and passed | - |
+| | Screenshot | ![screenshot](documentation/defensive/logout_warning.png) | ![screenshot](documentation/defensive/logout_signout.png) | - |
 
 | Page | Expectation | Test | Result | Fix | Screenshot |
 | --- | --- | --- | --- | --- | --- |
 | Contact | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/features/feature05.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/features/feature06.png) |
+| | The contact is about the user getting in touch with the admin but using the form and able to submit a button with notification| Test the form with not putting everything that you need to it that has an asterix  | The feature behaved as expected and force the user to make sure that the form is filled in with asterix | Test concluded and passed | - |
+| | ScreenShot | ![screenshot](documentation/defensive/post_comment.png) | ![screenshot](documentation/defensive/contact_enteremail.png) | ![screenshot](documentation/defensive/contact_entermessage.png) | - |
+| | ScreenShot | ![screenshot](documentation/defensive/contact_missingat.png) | ![screenshot](documentation/defensive/contact_messagesent.png) | - | - |
 
-| Log in | Expectation | Test | Result | Fix | Screenshot |
+| Page | Expectation | Test | Result | Fix | Screenshot |
 | --- | --- | --- | --- | --- | --- |
-| Contact | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/features/feature07.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/features/feature08.png) |
-
-| Register | Expectation | Test | Result | Fix | Screenshot |
-| --- | --- | --- | --- | --- | --- |
-| Contact | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/features/feature07.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/features/feature08.png) |
-
-| Post | Expectation | Test | Result | Fix | Screenshot |
-| --- | --- | --- | --- | --- | --- |
-| Contact | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/features/feature07.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/features/feature08.png) |
-
+| Comment | | | | | |
+| | This is when a user would like to make a comment and edit own and deleting comment | Tested the feature try to comment without being a user and being a user | The feature behaved as expected | Test concluded and passed | - |
+| | Screenshot | ![screenshot](documentation/defensive/post_comment.png) | ![screenshot](documentation/defensive/comment_approval.png) | ![screenshot](documentation/defensive/comment_isawaiting.png) | ![screenshot](documentation/defensive/comment_deleteedit_own.png) |
 ## User Story Testing
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-Testing user stories is actually quite simple, once you've already got the stories defined on your README.
-
-Most of your project's **features** should already align with the **user stories**,
-so this should as simple as creating a table with the user story, matching with the re-used screenshot
-from the respective feature.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 | User Story | Screenshot |
 | --- | --- |
@@ -221,9 +156,9 @@ from the respective feature.
 
 | User Story | Screenshot |
 | --- | --- |
-| As a site administrator, I should be able to log in, so that I can access the admin page | ![screenshot](documentation/features/feature05.png) |
-| As a site administrator, I should be able to delete or approve comment, so that I can control the page | ![screenshot](documentation/features/feature06.png) |
-| As a site administrator, I should be able to manage the contact us, so that I can received message. | ![screenshot](documentation/features/feature07.png) |
+| As a site administrator, I should be able to log in, so that I can access the admin page | ![screenshot](documentation/others/admin_page.png) |
+| As a site administrator, I should be able to delete or approve comment, so that I can control the page | ![screenshot](documentation/others/admin_controlcomment.png) |
+| As a site administrator, I should be able to manage the contact us, so that I can received message. | ![screenshot](documentation/others/admin_contact.png) |
 
 ## Bugs
 

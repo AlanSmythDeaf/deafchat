@@ -7,6 +7,7 @@
 At Deaf Chat is an innovative online platform designed to provide a comprehensive source of news and information tailored for a diverse audience. Our goal is to create an engaging space where users can explore daily updates across different categories. It's not just for Deaf people only. Blog aims is to try deliver news that is not only relevant but also inclusive. 
 The goal is to have a place where the user don't need to have social media to read report and comments.
 
+![screenshot](documentation/others/am_i_responsive.png)
 source: [amiresponsive](https://ui.dev/amiresponsive?url=https://deafchat-pp4-cdf6b2c2764c.herokuapp.com)
 
 ## UX
@@ -165,7 +166,7 @@ I used [coolors.co](https://coolors.co/055677-ffffff-981f1f) to generate my colo
 ## Database Design
 
 Entity Relationship Diagrams (ERD) help to visualize database architecture before creating models.
-Understanding the relationships between different tables can save time later in the project.
+Understanding the relationships between different tables can save time later in the project. I use canva to create the erd and few changes were made by category toward the end
 
 ```python
 class Post(models.Model):
@@ -178,6 +179,35 @@ class Post(models.Model):
     status = models.IntegerField(choices=STATUS, default=0)
     excerpt = models.TextField(blank=True)
 ```
+``` python
+class Comment(models.Model):
+    post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name="comments")
+    author = models.ForeignKey(User, on_delete=models.CASCADE,related_name="commenter")
+    body = models.TextField()
+    approved = models.BooleanField(default=False)
+    created_on = models.DateTimeField(auto_now_add=True)
+```
+``` python
+class Category(models.Model):
+    name = models.CharField(max_length=100)
+    slug = models.SlugField(unique=True)
+```
+``` python
+class About(models.Model):
+    title = models.CharField(max_length=200)
+    updated_on = models.DateTimeField(auto_now=True)
+    content = models.TextField()
+```
+``` python
+class ContactForm(models.Model):
+    name = models.CharField(max_length=200, blank=False)
+    phonenumber = models.CharField(max_length=15, blank=True)
+    email = models.EmailField(blank=False)
+    message = models.TextField(blank=False)
+    created_at = models.DateTimeField(auto_now_add=True)
+```
+| ![screenshot](documentation/others/erd.png) |
+
 ## Agile Development Process
 
 ### GitHub Projects
