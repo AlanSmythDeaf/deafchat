@@ -61,14 +61,86 @@ Not yet
 - As a site administrator, I should be able to manage the contact us, so that I can received message.
 
 ## Wireframes
+- As I design the wireframe from the start, I had it in my head what I want to look like but as weeks went by when start on the PP4 coding, I couldnt follow the wireframe so made some changes to keep it simple and focus more on the coding.
+
 ### Mobile Wireframes
+| ![screenshot](documentation/wireframe/mobile_view.png)
+
 ### Tablet Wireframes
+| ![screenshot](documentation/wireframe/tablet_viewing.png)
+
 ### Desktop Wireframes
+| ![screenshot](documentation/wireframe/website_viewing.png)
 
 ## Features
+
 ### Existing Features
+- **Home**
+
+    - This is the first page when it's loaded, present the user with options to chose from in the navbar and topic to read a post.
+      The page has 6 post per page and the user can click on next for more post
+    1) Log in - to log in so that user can make a comment on a post
+    2) Register - to be member so that user can make a comment on a post
+    3) About - What the website is all about 
+    4) Contact - for user to get in touch with the admin
+    5) Topic Post - To read a post 
+
+| Start|  |  
+| --- | --- | 
+| ![screenshot](documentation/browser/chrome_home.png) |  ![screenshot](documentation/features/home_end.png) |
+
+- **About**
+
+    - About page, this is learning what the website is all about, at the top you have video and scroll down you 
+      will get text so the user have two options to either read or watch the video
+
+| Start | End |  
+| --- | --- | 
+| ![screenshot](documentation/browser/chrome_about.png) | ![screenshot](documentation/features/about_end.png) |
+
+- **Contact**
+
+    - Contact page, this is when a user want to get in touch with the admin. THe user must type in Name, Email Address and Message to be able to submit a message 
+    
+| Start | End |  
+| --- | --- | 
+| ![screenshot](documentation/browser/chrome_contact.png) | ![screenshot](documentation/defensive/contact_entermessage.png) |
+
+- **Log In**
+
+    - Log in page, this page is when a user log in to be able to make a comment on a post that they like, the user must type in username and password to be able to log in.
+    
+| Start | End |  
+| --- | --- | 
+| ![screenshot](documentation/browser/chrome_login.png) | ![screenshot](documentation/defensive/login_password.png) |
+
+- **Register**
+
+    - Register page, this is where a person sign up to become a user to be able to make a comment and only need to log in when they return again. A person must enter a username and password twice to make sure the password is correct, the email is optional. No username can be the same.
+    
+| Start | End |  
+| --- | --- | 
+| ![screenshot](documentation/browser/chrome_register.png) | ![screenshot](documentation/defensive/register_usernamealreadyexist.png) |
+
+- **Post**
+
+    - Post page, a user can read a post, doesn't need to be logged in to read a post but if wants to make a comment needs to log in.
+    
+| Start | End |  
+| --- | --- | 
+| ![screenshot](documentation/browser/chrome_post.png) | ![screenshot](documentation/defensive/post_comment.png) |
+
+
 ### Future Features
-additional ideas that I would like to include in the future
+-  People/User to upload video on the contact us page so people can sign in their own sign language and also in the comment people can upload the video
+- User to recieve notification that their comment is approve
+- User to recieve notification that someone has comment on their commment section
+- Site Admin to add a tick box if user want to get notification 
+- Site Amin to add a video in each post so they can either read or watch the video in sign langauge
+- Site Admin to add the category page so people can chose what topic they want to read.
+- Site Admin to add a live streaming on odd occasion for certain post
+- Add a search bar on the navigation bar
+- Add reset a new password in login when a person forget a password
 
 ## Tools & Technologies Used
 
@@ -132,16 +204,6 @@ screenshot of Open and Closed Issues.
 > For all testing, please refer to the [TESTING.md](TESTING.md) file.
 
 ## Deployment
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-**IMPORTANT:**
-
-- ⚠️ DO NOT update the environment variables to your own! These should NOT be included in this file; just demo values! ⚠️
-- ⚠️ DO NOT update the environment variables to your own! These should NOT be included in this file; just demo values! ⚠️
-- ⚠️ DO NOT update the environment variables to your own! These should NOT be included in this file; just demo values! ⚠️
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 The live deployed application can be found deployed on [Heroku](https://deafchat-pp4-cdf6b2c2764c.herokuapp.com).
 
@@ -299,14 +361,9 @@ You can fork this repository by using the following steps:
 
 ### Local VS Deployment
 
-Use this space to discuss any differences between the local version you've developed, and the live deployment site on Heroku.
+There was no difference between local and deployment noticed
 
 ## Credits
-
-In this section you need to reference where you got your content, media, and extra help from.
-It is common practice to use code from other repositories and tutorials,
-however, it is important to be very specific about these sources to avoid plagiarism.
-
 
 ### Content
 
@@ -321,7 +378,6 @@ however, it is important to be very specific about these sources to avoid plagia
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
 | [Canva](https://www.canva.com) | entire site | image | Post image |
-| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
 
 
 ### Acknowledgements
