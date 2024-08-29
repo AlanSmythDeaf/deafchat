@@ -4,14 +4,17 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/AlanSmythDeaf/deafchat)](https://github.com/AlanSmythDeaf/deafchat/commits/main)
 [![GitHub repo size](https://img.shields.io/github/repo-size/AlanSmythDeaf/deafchat)](https://github.com/AlanSmythDeaf/deafchat)
 
-Deafchat website - explain bit about website
+At Deaf Chat is an innovative online platform designed to provide a comprehensive source of news and information tailored for a diverse audience. Our goal is to create an engaging space where users can explore daily updates across different categories. It's not just for Deaf people only. Blog aims is to try deliver news that is not only relevant but also inclusive. 
+The goal is to have a place where the user don't need to have social media to read report and comments.
 
 source: [amiresponsive](https://ui.dev/amiresponsive?url=https://deafchat-pp4-cdf6b2c2764c.herokuapp.com)
 
 ## UX
 
-I use the agile principle to design the website, started off with mulitple idea and decided to go with blog
-use the Kaban Board & user story to help me design the website
+When decidind on the Project 4 - I had a look around at other people project and to see what fits me best, so I thought the blog was a good website to go with.
+ - The first thing I need for the project to work was that need to follow the MVP as best I can
+ - Chose the colour that is web accessbititly 
+ - Using the User Story, Wireframe, Kaban that helps build the website.
 
 ### Colour Scheme 
 
@@ -22,22 +25,14 @@ Dark blue was chosen by the World Federation of the Deaf and Deaf associations a
 
 My website is all about a blog for Deaf people so I have chosen blue for the main colour
 
-- `#FFFFFF` used for text in the navbar.
-- `#445261` used for card text.
-More to come
+I used [coolors.co](https://coolors.co/055677-ffffff-981f1f) to generate my colour palette.
 
-I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
-
-![screenshot](documentation/coolors.png)
+![screenshot](documentation/colour/color.png)
 
 
 ### Typography
 
-Not yet
-
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
-
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
+- [Segoe UI] was used for the primary headers and titles.
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
@@ -45,7 +40,7 @@ Not yet
 
 ### New Site Users
 
-- As a new site user, I would like to be able to navigate the page, so that I read the blog.
+- As a new site user, I would like to be able to navigate the page, so that I read many blogs.
 - As a new site user, I would like to be able to sign up, so that I can comment on a post.
 - As a new site user, I would like to be able to log out easily so that am confident that I have logged out.
 - As a new site user, I would like to be able to navigate the contact easily, so that I can send message.
@@ -53,6 +48,7 @@ Not yet
 ### Returning Site Users
 
 - As a returning site user, I would like to log in without having to register, so that I can comment on the post.
+- As a returning site user, I would like to read many blogs.
 
 ### Site Admin
 

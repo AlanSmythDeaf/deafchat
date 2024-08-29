@@ -103,12 +103,12 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | Page | Mobile | Desktop | Notes |
 | --- | --- | --- | --- |
-| Home | ![screenshot](documentation) | ![screenshot](documentation/lighthouse/desktop_home_lh.png) | Some minor warnings |
+| Home | ![screenshot](documentation/lighthouse/mobile_home_lh.png) | ![screenshot](documentation/lighthouse/desktop_home_lh.png) | Some minor warnings |
 | About | ![screenshot](documentation/lighthouse/mobile_about_lh.png) | ![screenshot](documentation/lighthouse/mobile_about_lh.png) | Some minor warnings |
-| Contact | ![screenshot](documentation/lighthouse/mobile_contact_lh.png) | ![screenshot](documentation/lighthouse/desktop_contact_lh.png) | ??? |
-| Log in | ![screenshot](documentation/lighthouse/mobile_login_lh.png) | ![screenshot](documentation/lighthouse/desktop_login_lh.png) | ??? |
-| Register | ![screenshot](documentation/lighthouse/mobile_register_lh.png) | ![screenshot](documentation/lighthouse/desktop_register_lh.png) | ??? |
-| Post | ![screenshot](documentation/lighthouse/mobile_post_lh.png) | ![screenshot](documentation/lighthouse/desktop_post_lh.png) | ??? |
+| Contact | ![screenshot](documentation/lighthouse/mobile_contact_lh.png) | ![screenshot](documentation/lighthouse/desktop_contact_lh.png) |  |
+| Log in | ![screenshot](documentation/lighthouse/mobile_login_lh.png) | ![screenshot](documentation/lighthouse/desktop_login_lh.png) |  |
+| Register | ![screenshot](documentation/lighthouse/mobile_register_lh.png) | ![screenshot](documentation/lighthouse/desktop_register_lh.png) |  |
+| Post | ![screenshot](documentation/lighthouse/mobile_post_lh.png) | ![screenshot](documentation/lighthouse/desktop_post_lh.png) |  |
 
 
 ## Defensive Programming
