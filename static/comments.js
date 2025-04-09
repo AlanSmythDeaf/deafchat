@@ -6,9 +6,8 @@ const commentForm = document.getElementById("commentForm");
 const submitButton = document.getElementById("submitButton");
 
 const deleteModalElement = document.getElementById("deleteModal");
-if (deleteModalElement) {
-  const deleteModal = new bootstrap.Modal(deleteModalElement);
-}
+const deleteModal = new bootstrap.Modal(deleteModalElement);
+
 const deleteButtons = document.getElementsByClassName("btn-delete");
 const deleteConfirm = document.getElementById("deleteConfirm");
 
