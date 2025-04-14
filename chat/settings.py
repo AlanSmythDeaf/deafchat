@@ -116,7 +116,9 @@ WSGI_APPLICATION = 'chat.wsgi.application'
 # }
 
 DATABASES = {
-    'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
+    'default': dj_database_url.parse(
+        os.environ.get("DATABASE_URL", "sqlite:///db.sqlite3")  # Default to SQLite
+    )
 }
 
 CSRF_TRUSTED_ORIGINS = [
