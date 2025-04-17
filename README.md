@@ -42,23 +42,45 @@ I used [coolors.co](https://coolors.co/055677-ffffff-981f1f) to generate my colo
 
 ## User Stories
 
-### New Site Users
+### New Site Users (Epic)
 
-- As a new site user, I would like to be able to navigate the page, so that I read many blogs.
+- As a new site user, I would like to be able to navigate the page, so that I can access different pages to read blog, about and make contact 
 - As a new site user, I would like to be able to sign up, so that I can comment on a post.
 - As a new site user, I would like to be able to log out easily so that am confident that I have logged out.
 - As a new site user, I would like to be able to navigate the contact easily, so that I can send message.
 
-### Returning Site Users
+### Returning Site Users (Epic)
 
 - As a returning site user, I would like to log in without having to register, so that I can comment on the post.
 - As a returning site user, I would like to read many blogs.
 
-### Site Admin
+### Site Admin (Epic)
 
 - As a site administrator, I should be able to log in, so that I can access the admin page.
-- As a site administrator, I should be able to delete or approve comment, so that I can control the page 
+- As a site administrator, to create post so that user read the blogs.
+- As a site administrator, to ensure the non registered user are not able to make a comment.
+- As a site administrator, I should be able to delete or approve comment, so that I can control the page.
 - As a site administrator, I should be able to manage the contact us, so that I can received message.
+- As a site administrator, I should be able to update the about page with Sign Language Video and text.
+- As a site administrator, I should be able to log in to make a comment to post.
+
+### User Registeration (Epic)
+- As site user, I would like to be able to register to the website to make a comment
+
+### Blog (Epic)
+- As a logged in user, I would like to be able to comment on the blog.
+- As a logged in user, I would like to see that the comment that I made has been sent subject to approval.
+- As a logged in user, I would like to be able to comment on the blog post.
+- As a logged in user, I would like to be able to delete or edit my comment.
+
+### Contact (Epic)
+- As a user, I would like to be able to contact the website/admin using the contact form
+- As a user, I would like to see that the message has been sent after clicking the submit button
+
+### About (EPIC)
+- As a user, I would like to be able to watch the video to learn about the website
+- As a user, I would like to be able to read the text to learn about the website
+
 
 ## Wireframes
 - As I design the wireframe from the start, I had it in my head what I want to look like but as weeks went by when start on the PP4 coding, I couldnt follow the wireframe so made some changes to keep it simple and focus more on the coding.
@@ -217,15 +239,20 @@ class ContactForm(models.Model):
 
 [GitHub Projects](https://github.com/AlanSmythDeaf/deafchat/projects) served as an Agile tool for this project.
 It isn't a specialized tool, but with the right tags and project creation/issue assignments, it can be made to work.
-Through it, user stories, issues, and milestone tasks were planned, then tracked on a weekly basis using the basic Kanban board.
-screenshot Projects Board.
+Through it, , User stories, Issues, and Moscow Proritization tasks were planned, then tracked on a basis using the basic Kanban board. 
 
 ### GitHub Issues
 
 [GitHub Issues](https://github.com/AlanSmythDeaf/deafchat/issues) served as an another Agile tool.
 There, I used my own **User Story Template** to manage user stories.
-It also helped with milestone iterations on a weekly basis.
-screenshot of Open and Closed Issues.
+
+### MoSCoW Prioritization
+To manage task priorities for the project, I applied the MoSCoW Prioritization method. This approach categorizes tasks based on their importance and urgency:
+- **Must Have:** Features are needed for the website that to be delivered. 
+- **Should Have:** Features that add value but are not critical for immediate delivery.
+- **Could Have:** Features that are nice to have.
+- **Will Not Have**: Features that are not a priority for the specific time frame.
+
 
 ## Testing
 
