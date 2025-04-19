@@ -86,13 +86,13 @@ I used [coolors.co](https://coolors.co/055677-ffffff-981f1f) to generate my colo
 - As I design the wireframe from the start, I had it in my head what I want to look like but as weeks went by when start on the PP4 coding, I couldnt follow the wireframe so made some changes to keep it simple and focus more on the coding.
 
 ### Mobile Wireframes
-| ![screenshot](documentation/wireframe/mobile_view.png)
+![screenshot](documentation/wireframe/mobile_view.png)
 
 ### Tablet Wireframes
-| ![screenshot](documentation/wireframe/tablet_viewing.png)
+![screenshot](documentation/wireframe/tablet_viewing.png)
 
 ### Desktop Wireframes
-| ![screenshot](documentation/wireframe/website_viewing.png)
+![screenshot](documentation/wireframe/website_viewing.png)
 
 ## Features
 
@@ -231,7 +231,7 @@ class ContactForm(models.Model):
     message = models.TextField(blank=False)
     created_at = models.DateTimeField(auto_now_add=True)
 ```
-| ![screenshot](documentation/others/erd.png) |
+![screenshot](documentation/others/erd.png)
 
 ## Agile Development Process
 
