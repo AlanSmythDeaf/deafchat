@@ -33,8 +33,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["8000-alansmythdeaf-deafchat-mm13edmzyws.ws.codeinstitute-ide.net",
-                ".herokuapp.com"
+ALLOWED_HOSTS = [
+    "8000-alansmythdeaf-deafchat-mm13edmzyws.ws.codeinstitute-ide.net",
+    ".herokuapp.com"
 ]
 
 
@@ -115,9 +116,10 @@ WSGI_APPLICATION = 'chat.wsgi.application'
 #  }
 # }
 
+# Default to SQLite
 DATABASES = {
     'default': dj_database_url.parse(
-        os.environ.get("DATABASE_URL", "sqlite:///db.sqlite3")  # Default to SQLite
+        os.environ.get("DATABASE_URL", "sqlite:///db.sqlite3")
     )
 }
 
@@ -132,16 +134,20 @@ CSRF_TRUSTED_ORIGINS = [
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'NAME': 'django.contrib.auth.password_validation.'
+                'UserAttributeSimilarityValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'NAME': 'django.contrib.auth.password_validation.'
+                'MinimumLengthValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+        'NAME': 'django.contrib.auth.password_validation.'
+                'CommonPasswordValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        'NAME': 'django.contrib.auth.password_validation.'
+                'NumericPasswordValidator',
     },
 ]
 
