@@ -49,12 +49,12 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 | blog | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/blog/models.py) | ![screenshot](documentation/python_validation/blog_models_py.png) | All clear, no errors found |
 | blog | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/blog/urls.py) | ![screenshot](documentation/python_validation/blog_urls_py.png) | All clear, no errors found |
 | blog | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/blog/views.py) | ![screenshot](documentation/python_validation/blog_views_py.png) | All clear, no errors found |
-| chat | settings.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/chat/settings.py) | ![screenshot](documentation/python_validation/chat_setting_py.png) | line too long,line under-indented for visual indent, closing bracket does not match visual indentation |
+| chat | settings.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/chat/settings.py) | ![screenshot](documentation/python_validation/chat_setting_py.png) | All clear, no errors found |
 | chat | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/chat/urls.py) | ![screenshot](documentation/python_validation/chat_url_py.png) | All clear, no errors found |
 | chat | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/chat/views.py) | ![screenshot](documentation/python_validation/chat_views_py.png) | All clear, no errors found |
 | contact | admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/contact/admin.py) | ![screenshot](documentation/python_validation/contact_admin_py.png) | All clear, no errors found |
 | contact | forms.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/contact/forms.py) | ![screenshot](documentation/python_validation/contact_form_py.png) | All clear, no errors found |
-| contact | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/contact/models.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | All clear, no errors found |
+| contact | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/contact/models.py) | ![screenshot](documentation/python_validation/contact_models_py.png) | All clear, no errors found |
 | contact | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/contact/urls.py) | ![screenshot](documentation/python_validation/contact_models_py.png) | All clear, no errors found |
 | contact | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/contact/views.py) | ![screenshot](documentation/python_validation/contact_views_py.png) | All clear, no errors found |
 | DEAFCHAT | manage.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/AlanSmythDeaf/deafchat/main/manage.py) | ![screenshot](documentation/python_validation/manage_py.png) | All clear, no errors found |
@@ -176,12 +176,6 @@ Any remaining open issues can be tracked [here](https://github.com/AlanSmythDeaf
     ![screenshot](documentation/html_validation/signup_htmlvalid.png)
 
     - Couldnt find it to fix it but came clear it was signup template so I couldnt change it
-
-- Python
-
-    ![screenshot](documentation/python_validation/chat_setting_py.png)
-
-    - Most of the line are too long, with others I have no issue solving it but I felt that i should leave it as it's because it's a setting.
 
 - JS
 
