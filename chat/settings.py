@@ -35,6 +35,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     "8000-alansmythdeaf-deafchat-mm13edmzyws.ws.codeinstitute-ide.net",
+    "8000-alansmythdeaf-deafchat-nqw96emcp22.ws-eu118.gitpod.io",
     ".herokuapp.com"
 ]
 
