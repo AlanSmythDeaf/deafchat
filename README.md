@@ -4,8 +4,11 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/AlanSmythDeaf/deafchat)](https://github.com/AlanSmythDeaf/deafchat/commits/main)
 [![GitHub repo size](https://img.shields.io/github/repo-size/AlanSmythDeaf/deafchat)](https://github.com/AlanSmythDeaf/deafchat)
 
-At Deaf Chat is an innovative online platform designed to provide a comprehensive source of news and information tailored for a diverse audience. Our goal is to create an engaging space where users can explore daily updates across different categories. It's not just for Deaf people only. Blog aims is to try deliver news that is not only relevant but also inclusive. 
-The goal is to have a place where the user don't need to have social media to read report and comments.
+At Deaf Chat is an innovative online platform designed to provide a comprehensive source of news and information tailored for a diverse audience especially for the Deaf Community. Our goal is to create an engaging space where users and non users can explore daily blogs/post across different categories. It's not just for Deaf people only. Blog aims is to try deliver blogs/post that is not only relevant but also inclusive. Also the users can make a comment on post so that can either discuss or just make a general comment.
+The goal is to have a place where the user and non users that they dont nee to have social media to read posts and comments.
+
+Also in the future,  will have sign language in the blog post,we have sign langauge in the about page. The reason for this is that Deaf people can chose to either read the text or watch the sign langauge. This makes it important as in general Deaf people first language is sign language so tend rather watch sign language then read text as this gives them the options. The blog post going forward will be a mixture of Deaf-Related blog/post i.e Deaflympics, Deaf events and general hot topics. 
+Those types of blogs are not generally on the wider spectrum of blogs.
 
 ![screenshot](documentation/others/am_i_responsive.png)
 source: [amiresponsive](https://ui.dev/amiresponsive?url=https://deafchat-pp4-cdf6b2c2764c.herokuapp.com)
