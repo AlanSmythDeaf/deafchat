@@ -177,12 +177,6 @@ Any remaining open issues can be tracked [here](https://github.com/AlanSmythDeaf
 
     - Couldnt find it to fix it but came clear it was signup template so I couldnt change it
 
-- Python
-
-    ![screenshot](documentation/python_validation/chat_setting_py.png)
-
-    - Most of the line are too long, with others I have no issue solving it but I felt that i should leave it as it's because it's a setting.
-
 - JS
 
     ![screenshot](documentation/others/jshint.png)
